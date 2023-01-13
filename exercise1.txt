@@ -1,0 +1,11 @@
+make new directory
+$ mkdir exercises_db
+
+Initialize git repo in folder -->  first go to github and make new repo there --> then follow these steps while being in the new local directory (here = “exercises_db”) :
+$ echo "# recap_exercises_db" >> README.md 
+$ git init 
+$ git add README.md git commit -m "first commit" 
+$ git branch -M main 
+$ git remote add origin git@github.com:Achim-Hongenaert/recap_exercises_db.git 
+$ git push -u origin main
+
